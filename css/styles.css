@@ -1,3 +1,16 @@
+/* Define styles for specific sections */
+#cpp:target h2 {
+    color: #228B22; /* Change color to orange for the C++ section title when active */
+}
+
+#java:target h2 {
+    color: #228B22; /* Change color to green for the Java section title when active */
+}
+
+/* Add styles for other sections as needed */
+
+
+
 /* Reset some default styles */
 body, h1, h2, ul {
     margin: 0;
@@ -46,6 +59,22 @@ section {
 
 #java {
     /* Styles for Java section */
+}
+
+#scrollToTopButton {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
 }
 
 /* Add styles for other sections as needed */
