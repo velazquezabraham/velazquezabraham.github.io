@@ -1,6 +1,6 @@
 /* Define styles for specific sections */
 #cpp:target h2 {
-    color: #228B22; /* Change color to orange for the C++ section title when active */
+    color: #FFA500; /* Change color to orange for the C++ section title when active */
 }
 
 #java:target h2 {
